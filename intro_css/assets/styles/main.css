@@ -1,0 +1,109 @@
+/* Selector general */
+*{
+  color: red;
+}
+
+/* Selector de ID */
+#titulo_principal{
+    color: rgb(255, 162, 0);
+}
+
+/* Selector de etiqueta */
+h1{
+    color: blue;
+}
+a{
+    text-decoration: none;
+}
+
+/* Selector de clase */
+.mi_primera_clase{
+    color: green;
+}
+
+/* Selector de hijo directo */
+nav > a{
+    font-size: 50px;
+    color: cornflowerblue;
+}
+
+/* Selector de decendencia */
+footer a {
+    font-size: 25px;
+    color: darkblue;
+}
+
+/* Selector multiple */
+header, main, footer{
+    background-color: rgb(203, 232, 222);
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Selector de clase especifico */
+article.primer_article{
+    background-color: rgb(208, 208, 234) ;
+}
+
+/* Selector de atributo */
+a[href="#"]{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+article{
+    width: 70vw;
+}
+
+img{
+    width:500px;
+}
+
+.aside_mascotas{
+    font-size: 30px;
+}
+
+.aside_mascotas a{
+    /*  font-size: 2em; */
+    font-size: 60px;
+    /*  color: blue; */
+    color:#2525a8;
+    text-decoration: underline;
+   
+}
+
+/* Colores */
+/* 
+    color -> darle color al texto
+    background-color -> darle color al fondo
+    podemos usar rgb o hexadecimal
+*/
+
+/* Tamaños */
+
+/* 
+    width -> ancho
+    height -> alto
+
+    max-width -> ancho maximo
+    min-width -> ancho minimo
+
+    max-height -> alto maximo
+    min-height -> alto minimo
+
+    px -> unidad de medida absoluta
+    rem -> unidad relativa al font-size del html ( por defecto 1rem = 16px ) 
+    % -> unidad relativa al tamaño del contenedor padre
+    vw, vh -> unidades relativas al tamaño del viewport
+*/
+
+/* Textos */
+
+/* 
+
+ font-size -> tamaño
+ font-family -> cambiamos la fuente
+ font-weight -> cambiamos el grosor de la fuente
+
+ text-align -> nos permite alinear el texto
+ text-decoration -> nos permite decorar el texto 
+
+*/

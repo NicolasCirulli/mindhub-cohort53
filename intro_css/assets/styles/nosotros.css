@@ -1,0 +1,27 @@
+
+main{
+    width: 50vw;
+    height: 70vh;
+    background-color: rgb(225, 120, 120);
+}
+
+
+.primero,.segundo{
+    background-color: rgb(171, 246, 246);
+}
+
+.primero{
+    width: 50%;
+    text-align: center;
+}
+
+.segundo{
+    width: 50vw;
+}
+
+.segundo img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0% 30%;
+}
