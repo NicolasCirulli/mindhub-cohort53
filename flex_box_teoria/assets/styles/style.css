@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(16, 30, 66);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80vw;
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 5px;
+
+
+
+    /* Propiedades de contenedor */
+    display : flex;
+    /* flex-direction: column; */ /* Viene por defecto en row */
+    gap: 10px;
+    flex-wrap: nowrap; /* Viene por defecto en nowrap */
+
+    justify-content: center;
+    align-items : center;
+    align-content: center;
+
+    
+
+}
+
+.item{
+    display: block;
+
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: white;
+    
+    
+    color: rgb(16, 30, 66);
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    flex-shrink: 1;
+    flex-basis: 200px;
+
+   
+}
+
+.item:nth-child(2){
+    background-color: red;
+    flex-grow: 1;
+    flex-shrink: 0;
+    order: 1;
+    align-self: flex-end;
+    /* Propiedades de hijo */
+   /* 
+        flex-grow
+        flex-shrink
+        flex-basis
+        align-self
+        order
+   */
+}
+.item:nth-child(1){
+    flex-grow: 2;
+    order: 2;
+}
