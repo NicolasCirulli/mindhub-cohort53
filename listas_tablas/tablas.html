@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <link rel="stylesheet" href="./tablas.css">
+</head>
+<body>
+    <header>
+        <h1>Tablas</h1>
+        <nav>
+            <a href="./lista.html">Lista</a>
+            <a href="#">Tablas</a>
+        </nav>
+    </header>
+    <section>
+        <h2>Estructura de la tabla</h2>
+        <article>
+            <table>
+                <tr>
+                    <th>Secos</th>
+                    <th>Humedos</th>
+                    <th>Extra</th>
+                </tr>
+                <tr>
+                    <td>Harina</td>
+                    <td>Huevo</td>
+                    <td>Esencia</td>
+                </tr>
+                <tr>
+                    <td>Polvo de hornear</td>
+                    <td>Leche</td>
+                    <td>Azucar impalpable</td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <h2>Estructura tabla compleja</h2>
+            <table>
+                <caption>Tabla compleja</caption>
+                <colgroup>
+                    <col span="4" class="productos"> 
+                    <col span="2" class="valores"> 
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th rowspan="2">productos</th>
+                        <th rowspan="2">precio</th>
+                        <th rowspan="2">cantidad</th>
+                        <th rowspan="2">descuento</th>
+                        <th colspan="2">total</th>
+                    </tr>
+                    <tr>
+                        <th>bruto</th>
+                        <th>neto</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Harina</td>
+                        <td>500$</td>
+                        <td>1</td>
+                        <td>20%</td>
+                        <td>500</td>
+                        <td>400</td>
+                    </tr>
+                    <tr>
+                        <td>Harina</td>
+                        <td>500$</td>
+                        <td>1</td>
+                        <td>20%</td>
+                        <td>500</td>
+                        <td>400</td>
+                    </tr>
+                    <tr>
+                        <td>Harina</td>
+                        <td>500$</td>
+                        <td>1</td>
+                        <td>20%</td>
+                        <td>500</td>
+                        <td>400</td>
+                    </tr>
+                    <tr>
+                        <td>Harina</td>
+                        <td>500$</td>
+                        <td>1</td>
+                        <td>20%</td>
+                        <td>500</td>
+                        <td>400</td>
+                    </tr>
+                    <tr>
+                        <td>Harina</td>
+                        <td>500$</td>
+                        <td>1</td>
+                        <td>20%</td>
+                        <td>500</td>
+                        <td>400</td>
+                    </tr>
+                    <tr>
+                        <td>Harina</td>
+                        <td>500$</td>
+                        <td>1</td>
+                        <td>20%</td>
+                        <td>500</td>
+                        <td>400</td>
+                    </tr>
+                    <tr>
+                        <td>Harina</td>
+                        <td>500$</td>
+                        <td>1</td>
+                        <td>20%</td>
+                        <td>500</td>
+                        <td>400</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4" class="foot">total</td>
+                        <td class="total">2000</td>
+                        <td class="total">1600</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </article>
+    </section>
+    
+</body>
+</html>

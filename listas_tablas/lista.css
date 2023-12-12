@@ -1,0 +1,57 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: initial;
+}
+
+.pasosLista{
+    color: blue;
+}
+
+h1{
+    color: rgb(83, 164, 196);
+    text-align: center;
+}
+
+h2,p{
+    width: 100vw;
+  
+}
+p{
+    padding-bottom: 2rem;
+
+}
+
+h3{
+    color: rgb(163, 163, 105);
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    margin-right: 1rem;
+}
+
+a{
+    margin-right: 1rem;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 4rem;
+    
+}
+
+article{
+    border: 1px solid black;
+    line-height: 2rem;
+    width: 28rem;
+    padding:2rem;
+}
