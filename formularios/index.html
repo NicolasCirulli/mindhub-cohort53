@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+    <title>Workshop formularios</title>
+</head>
+<body>
+    <div class="layaout">
+
+        <header>
+            <h1>Formularios</h1>
+        </header>
+
+        <main>
+           
+            <form action="./show_data.html">
+
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="firstName" id="nombre" placeholder="Ej: Nicolas">
+                    
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="lastName" id="apellido" placeholder="Ej: Cirulli">
+                    
+                    <label for="birthdate_input">Fecha de nacimiento</label>
+                    <input type="date" name="birthdate" id="birthdate_input">
+
+                    <label for="email_input">Email</label>
+                    <input type="email" name="email" id="email_input" required>
+
+                    <label for="edad_input">Edad</label>
+                    <input type="number" max="9999" min="1" name="age" id="edad_input">
+
+                    <label for="color_input">Color favorito</label>
+                    <input type="color" name="color" id="color_input">
+
+                    <select name="country">
+                        <option disabled selected> Seleccione su pais </option>
+                        <option value="ar"> Argentina </option>
+                        <option value="py"> Paraguay </option>
+                        <option value="cl"> Chile </option>
+                        <option value="col"> Colombia </option>
+                        <option value="uy"> Uruguay </option>
+                    </select>
+
+
+                    <fieldset>
+                        <legend>Lenguajes favoritos</legend>
+                        <small> Seleccionar tus lenguajes favoritos: </small>
+                        <div>
+                            <label for="html">HTML</label>
+                            <input type="checkbox" name="lenguaje" value="html" id="html" checked>
+                        </div>
+
+                        <div>
+                            <label for="css">CSS</label>
+                            <input type="checkbox" name="lenguaje" value="css" id="css">
+                        </div>
+
+                        <div>
+                            <label for="js">JS</label>
+                            <input type="checkbox" name="lenguaje" value="js" id="js" checked>
+                        </div>
+
+                        <div>
+                            <label for="java">JAVA</label>
+                            <input type="checkbox" name="lenguaje" value="java" id="java">
+                        </div>
+
+                    </fieldset>
+
+                    
+                    <label>Ingrese un comentario</label>
+                    <textarea name="comentario" cols="30" rows="10" maxlength="150" placeholder="Ingrese un comentario"></textarea>
+
+                    <fieldset>
+                        <legend>Genero</legend>
+                        <label>Mujer
+                            <input type="radio" name="genre" value="mujer">
+                        </label>
+    
+                        <label>Hombre
+                            <input type="radio" name="genre" value="hombre" >
+                        </label>
+    
+                        <label>Otro
+                            <input type="radio" name="genre" value="otro" checked>
+                        </label>
+                    </fieldset>
+
+                </fieldset>
+                
+                
+                <input type="submit" value="Enviar">
+            </form>
+           
+           <img src="" alt="">
+
+            <section>
+                <h2> Direccion </h2>
+                <iframe class="mapas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6564.193770350301!2d-58.44095704923306!3d-34.65225606131813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbbf80977ed5%3A0xb7eedcbe4a3ab64e!2sEstadio%20Pedro%20Bidegain!5e0!3m2!1ses!2sar!4v1702504267838!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <section>
+                <h2> Direccion </h2>
+                <iframe class="mapas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6564.193770350301!2d-58.44095704923306!3d-34.65225606131813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbbf80977ed5%3A0xb7eedcbe4a3ab64e!2sEstadio%20Pedro%20Bidegain!5e0!3m2!1ses!2sar!4v1702504267838!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <section>
+                <h2> Direccion </h2>
+                <iframe class="mapas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6564.193770350301!2d-58.44095704923306!3d-34.65225606131813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbbf80977ed5%3A0xb7eedcbe4a3ab64e!2sEstadio%20Pedro%20Bidegain!5e0!3m2!1ses!2sar!4v1702504267838!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <section>
+                <h2> Direccion </h2>
+                <iframe class="mapas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6564.193770350301!2d-58.44095704923306!3d-34.65225606131813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbbf80977ed5%3A0xb7eedcbe4a3ab64e!2sEstadio%20Pedro%20Bidegain!5e0!3m2!1ses!2sar!4v1702504267838!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>footer</p>
+        </footer>
+    </div>
+</body>
+</html>
