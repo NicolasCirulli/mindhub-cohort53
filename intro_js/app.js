@@ -148,5 +148,5 @@ const mentores = [
 
 ]
 
-console.log( mentores[1].trabajo.empresa )
 
+console.log( mentores[1].trabajo.empresa )
