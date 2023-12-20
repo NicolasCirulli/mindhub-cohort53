@@ -38,7 +38,7 @@ const datoIngresado = prompt( "Ingrese su nombre" )
 
 console.log( Number( datoIngresado ) ) */
 
-const respuesta = confirm('Acepta los terminos')
+/* const respuesta = confirm('Acepta los terminos')
 
 if( respuesta ){
     const nombreIngresado = prompt( "Ingrese su nombre" )
@@ -46,4 +46,47 @@ if( respuesta ){
 }else{
     console.log('Adios')
 }
+ */
 
+/* const operacion = prompt( "Ingrese una operacion: sumar, restar, multiplicar, dividir" )
+const numeroUno = Number( prompt( "Ingrese el primer numero ( del 1 al 20 )" ) )
+const numeroDos = Number( prompt( "Ingrese el segundo numero ( del 1 al 20 )" ) )
+ */
+/* switch */
+
+/* console.log( `Operacion: ${operacion}, numeroUno: ${numeroUno}, numeroDos: ${numeroDos}` ) */
+
+
+/* if( (numeroUno >= 1 && numeroUno <= 20) && (numeroDos >= 1 && numeroDos <= 20) ){
+    switch ( operacion ) {
+        case "sumar":
+            console.log( `El resultado es: ${numeroUno + numeroDos}` )
+            break;        
+        case "restar":
+            console.log( `El resultado es: ${numeroUno - numeroDos}` )
+            break;    
+        case "multiplicar":
+            console.log( `El resultado es: ${numeroUno * numeroDos}` )
+            break;    
+        case "dividir":
+            console.log( `El resultado es: ${numeroUno / numeroDos}` )
+            break;    
+        default:
+            console.log( "Operacion no valida" )
+            break;
+    }
+}else{
+    console.log( "Numeros incorrectos" )
+} */
+
+
+/* 
+    Lista valores Falsy
+    0 -> false
+    -0 -> false
+    "" -> false
+    NaN -> false
+    null -> false
+    undefined -> false
+    false -> false
+*/
