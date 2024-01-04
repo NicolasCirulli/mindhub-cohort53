@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Eventos</title>
+</head>
+<body>
+    <div class="min-h-screen flex flex-col">
+        <header>
+            <img class="w-full h-60 object-cover" src="./assets/images/mindhub.jpg" alt="Logo Mindhub">
+        </header>
+        <main class="grow flex flex-col items-center gap-5 py-5">
+            
+            <h1 class="text-3xl font-bold text-center">Mentores</h1>
+
+            <search  class="flex flex-col items-center gap-5">
+                <input id="input-busqueda" name="Busqueda" type="text" class="border-2 px-5" placeholder="EJ: Nico">
+                <div id="contenedorCheckboxes" class="flex gap-5"></div>
+            </search>
+
+            <ul id="lista-js" class="flex flex-col grow gap-3 font-semibold text-blue-900 text-xl">
+            </ul>
+
+        </main>
+        <footer class="bg-black text-white p-4">
+            <p class="text-center">Mindhub cohort 53</p>
+        </footer>
+    </div>
+
+    <script src="./data.js" ></script>
+    <script src="./app.js" ></script>
+</body>
+</html>
