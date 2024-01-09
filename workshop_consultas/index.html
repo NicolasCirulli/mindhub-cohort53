@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="flex flex-col justify-center items-center">
+    
+    <search class="flex gap-3 items-center p-5">
+        <label> todos
+            <input type="radio" name="tipo" value="todos" checked>
+        </label>
+        <label> pares
+            <input type="radio" name="tipo" value="pares"  >
+        </label>
+        <label> impares
+            <input type="radio" name="tipo" value="impares" >
+        </label>
+
+        <select name="" id="select"></select>
+
+    </search>
+
+    <ul id="lista">
+
+    </ul>
+
+
+    <script type="module" src="./app.js"></script>
+</body>
+</html>
