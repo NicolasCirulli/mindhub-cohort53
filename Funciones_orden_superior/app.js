@@ -1,5 +1,17 @@
 const $contenedor = document.getElementById( 'contenedor-main' )
-const agentesJugables = agentes.data.filter( agente => agente.isPlayableCharacter )
+
+const fnReduce = ( acumulador, agente ) =>  acumulador += crearArticle( agente )
+
+fetch( 'https://valorant-api.com/v1/agents?language=es-MX' )
+    .then( response => response.json() )
+    .then( agentes => {
+        const agentesJugables = agentes.data.filter( agente => agente.isPlayableCharacter )
+        $contenedor.innerHTML += agentesJugables.reduce( fnReduce , "" )
+    }  )
+    .catch( err => console.log( err ) )
+
+
+    
 
 function crearArticle( parametro ){
     return ` 
@@ -10,8 +22,3 @@ function crearArticle( parametro ){
     </article>
 `
 }
-
-const fnReduce = ( acumulador, agente ) =>  acumulador += crearArticle( agente )
-
-$contenedor.innerHTML += agentesJugables.reduce( fnReduce , "" )
-
