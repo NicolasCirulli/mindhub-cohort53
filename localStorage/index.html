@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="min-h-screen w-full flex flex-col">
+
+        <header class="p-5 text-center">
+            <h1 class="text-3xl">APP NOTAS</h1>
+        </header>
+        <main class="grow flex flex-col items-center">
+            <section class="w-[600px]">
+                <h2 class="text-center"> Crear una nota nueva</h2>
+                <form class="flex flex-col items-center gap-3 p-5" id="form">
+                    <input required class="w-3/4 border border-black" placeholder="Titulo" type="text" name="titulo" id="titulo-form">
+                    <textarea required placeholder="Descripcion" class="w-3/4 border border-black" name="descripcion" id="text-area" cols="30" rows="10"></textarea>
+                    <input class="border p-5 w-1/4" type="submit" value="Crear">
+                </form>
+            </section>
+            <section class="flex flex-wrap gap-5 justify-center">
+                <h2 class="w-full text-3xl text-center">NOTAS</h2>
+                <div class="flex flex-wrap gap-5 justify-center" id="contenedor-notas"></div>
+            
+            </section>
+        </main>
+        <footer class="p-5 text-center">
+            <p class="text-lg">Mindhub cohort 53</p>
+        </footer>
+
+    </div>
+
+
+    <script src="./app.js"></script>
+
+</body>
+</html>
